@@ -10,6 +10,7 @@ Bem-vindo ao **Virtual Music Keyboard**! Neste repositório, você encontrará u
 ### Funcionalidades Incríveis
 
 - **Usando o teclado**: Use o seu teclado para pressionar as teclas do piano virtual.
+- **Escala DÓ3 e DÓ4**: Alterne entre o Dó 3 e 4.
 
 ### Como Usar
 
@@ -19,6 +20,7 @@ Bem-vindo ao **Virtual Music Keyboard**! Neste repositório, você encontrará u
 4. Pode-se utilizar as teclas também para tocar.
 5. Use o Slider de volume para aumentar ou diminuir o volume.
 6. Ative ou desative o mostrador da indicação das teclas corresponde do teclado.
+7. Pressione a tecla 1 para alternar entre a escala Dó3 e Dó4.
 
 ### Contribuição
 
