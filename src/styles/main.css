@@ -121,3 +121,9 @@ header .column span {
 .piano-keys .key.hide span {
 	display: none;
 }
+
+footer {
+	font-weight: 100;
+	margin-top: 15px;
+	font-size: 0.8rem;
+}

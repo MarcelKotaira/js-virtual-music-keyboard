@@ -4,9 +4,10 @@ const keysCheck = document.querySelector(".keys-check input");
 
 let mapedKeys = [];
 let audio = new Audio("./src/tunes/a.wav");
+let tecla1 = true;
 
 const playTune = (key) => {
-	audio.src = `./src/tunes/${key}.wav`;
+	audio.src = tecla1 ? `./src/tunes/${key}.wav` : `./src/tunes/${key}-.wav`;
 	audio.play();
 
 	const clickedKey = document.querySelector(`[data-key="${key}"]`);
@@ -24,6 +25,10 @@ pianoKeys.forEach((key) => {
 document.addEventListener("keydown", (e) => {
 	if (mapedKeys.includes(e.key)) {
 		playTune(e.key);
+	}
+	if (e.key === "1") {
+		tecla1 = !tecla1;
+		document.querySelector("#escala").textContent = tecla1 ? "Dó4" : "Dó3";
 	}
 });
 
